@@ -22,4 +22,4 @@ Note: to generate the parameters required for `addProof` and `merkleTreeValidato
     - with 3 proofs (5-8 leaves) require gas ~237,000
     - note that the cost is much lower for
         - second call of `addProof()` 
-        - if reuse the mapping by calling the `resetData()`
+        - reuse the contract by `resetData()`
